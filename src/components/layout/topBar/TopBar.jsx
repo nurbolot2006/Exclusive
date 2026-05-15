@@ -12,10 +12,7 @@ const TopBar = () => {
                 </div>
 
                 <div className={styles.language_wrapper}>
-                    <select
-                        className={styles.languageSelect}
-                        defaultValue={"English"}
-                    >
+                    <select className={styles.languageSelect} defaultValue={"English"}>
                         <option value="English">English</option>
                         <option value="Русский">Русский</option>
                         <option value="Кыргызча">Кыргызча</option>
