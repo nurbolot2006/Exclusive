@@ -1,0 +1,50 @@
+.topbar {
+    height: 48px;
+    background: #000000;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+}
+
+.topbar_container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: Poppins, sans-serif;
+}
+
+.topbar_text {
+    font-size: 14px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.shop_now {
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.shop_now:hover {
+    transform: translateY(-3px);
+}
+
+.language_wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.languageSelect {
+    background: #000000;
+    color: #FAFAFA;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
