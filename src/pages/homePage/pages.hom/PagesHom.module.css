@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.leftMenu {
+  width: 230px;
+  padding-right: 30px;
+  border-right: 1px solid #e5e5e5;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.leftMenu p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leftMenu p:hover {
+  color: #db4444;
+}
+
+.banner {
+  width: 892px;
+  height: 344px;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 58px;
+  left: 64px;
+  color: #fff;
+  z-index: 2;
+}
+
+.text h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+
+.text a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+}
+
+.phone {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  width: 470px;
+  height: auto;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dots span {
+  width: 12px;
+  height: 12px;
+  background: #808080;
+  border-radius: 50%;
+}
+
+.active {
+  background: #db4444 !important;
+  border: 2px solid #fff;
+}
