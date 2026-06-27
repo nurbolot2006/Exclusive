@@ -1,10 +1,11 @@
+import PagesHom from "./pages.hom/pageshom";
 
 const HomePage = () => {
-    return (
-        <div className={"container"}>
-            Home Page
-        </div>
-    );
+  return (
+    <div className="container">
+      <PagesHom />
+    </div>
+  );
 };
 
 export default HomePage;
