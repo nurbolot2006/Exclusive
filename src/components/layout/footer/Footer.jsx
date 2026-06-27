@@ -1,11 +1,11 @@
+import styles from "./Footer.module.css";
+
 import {
     FaFacebookF,
     FaInstagram,
     FaTwitter,
     FaLinkedinIn
 } from "react-icons/fa";
-
-import styles from "./Footer.module.css";
 
 const Footer = () => {
     return (
